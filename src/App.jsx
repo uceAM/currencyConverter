@@ -65,7 +65,7 @@ function App() {
                             currencyOptions={targetCurrencyList}
                             onCurrencyChange={(newCurrency) =>{setTo(newCurrency);
                             }}
-                            onAmountChange={()=> (console.log('a'))}
+                            onAmountChange={(newResult)=> (setAmount(newResult))}
                             selectCurrency={to}
                             amountDisabled ={true}
                             currencyDisabled = {false}
