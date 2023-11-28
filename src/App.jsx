@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import InputBox from './components/InputBox'
 import useCurrencyInfo from './hooks/UseCurrencyInfo'
+import currency from "./assets/currency.jpg";
 
 function App() {
   const[amount, setAmount] = useState(0);
@@ -20,7 +21,7 @@ function App() {
     setResult(amount * currencyInfo[to])
   }
 
-    const BackgroundImage = "https://www.theselfemployed.com/wp-content/uploads/2018/11/currency.jpg";
+    const BackgroundImage = currency;
 
   return (
     <div
