@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import './App.css'
 import InputBox from './components/InputBox'
 import useCurrencyInfo from './hooks/UseCurrencyInfo'
 import currency from "./assets/currency.jpg";
